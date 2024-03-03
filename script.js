@@ -11,7 +11,7 @@ const playlist = [
     { title: "Tere Hawaale", artist: "Arijit Singh and Shilpa Rao", image: "./images/TereHawale.jpg", audio: "./songs/Tere Hawaale(PagalWorld.com.cm).mp3" },
     { title: "Tu Hai Kahan", artist: "Usman Ahad", image: "./images/AnimalSong.jpg", audio: "./songs/Tu Hai Kahan(PagalWorld.com.cm).mp3" },
     { title: "Ve Haniya", artist: "Sargun Mehta", image: "./images/Vehaniya.jpg", audio: "./songs/Ve Haniya(PagalWorld.com.cm).mp3" },
-    { title: "Humdard - Lofi Song (Slowed Reverb) Arijit Singh", artist: "Areijit singh", image: "./images/humdard.jpg", audio: "./songs/Humdard - Lofi Song (Slowed Reverb) Arijit Singh - Ek Villain.mp3" }
+    { title: "Humdard - Lofi Song", artist: "Areijit singh", image: "./images/humdard.jpg", audio: "./songs/Humdard - Lofi Song (Slowed Reverb) Arijit Singh - Ek Villain.mp3" }
 
 ];
 
