@@ -1,16 +1,16 @@
 
 const playlist = [
-    { title: "O Mahi song ", artist: "Arijit Singh", image: "./images/Omahi.jpg", audio: "/songs/O Mahi O Mahi(PagalWorld.com.cm).mp3" },
-    { title: "Chaleya", artist: "Ariji singh", image: "./images/Chaleya.jpg", audio: "/songs/Chaleya(PagalWorld.com.cm).mp3" },
-    { title: "Maan meri jaan", artist: "King", image: "./images/MaanMeriJaan.jpg", audio: "/songs/Maan Meri Jaan(PagalWorld.com.cm).mp3" },
-    { title: "Pahle bhi main", artist: "Raj shekhar", image: "./images/AnimalSong.jpg", audio: "/songs/Pehle Bhi Main(PagalWorld.com.cm).mp3" },
-    { title: "Phir na aisi raat song", artist: "Arijit singh", image: "./images/PhirNaAisiRaatAegi.jpg", audio: "/songs/Phir Na Aisi Raat Aayegi(PagalWorld.com.cm).mp3" },
+    { title: "O Mahi song ", artist: "Arijit Singh", image: "./images/Omahi.jpg", audio: "./songs/O Mahi O Mahi(PagalWorld.com.cm).mp3" },
+    { title: "Chaleya", artist: "Ariji singh", image: "./images/Chaleya.jpg", audio: "./songs/Chaleya(PagalWorld.com.cm).mp3" },
+    { title: "Maan meri jaan", artist: "King", image: "./images/MaanMeriJaan.jpg", audio: "./songs/Maan Meri Jaan(PagalWorld.com.cm).mp3" },
+    { title: "Pahle bhi main", artist: "Raj shekhar", image: "./images/AnimalSong.jpg", audio: "./songs/Pehle Bhi Main(PagalWorld.com.cm).mp3" },
+    { title: "Phir na aisi raat song", artist: "Arijit singh", image: "./images/PhirNaAisiRaatAegi.jpg", audio: "./songs/Phir Na Aisi Raat Aayegi(PagalWorld.com.cm).mp3" },
     // Add more songs here
     
-    { title: "Saari Duniya Jalaa Denge(PagalWorld.com.cm)", artist: "B Praak and Jaan", image: "./images/AnimalSong.jpg", audio: "/songs/Saari Duniya Jalaa Denge(PagalWorld.com.cm).mp3" },
-    { title: "Tere Hawaale", artist: "Arijit Singh and Shilpa Rao", image: "./images/TereHawale.jpg", audio: "/songs/Tere Hawaale(PagalWorld.com.cm).mp3" },
-    { title: "Tu Hai Kahan", artist: "Usman Ahad", image: "./images/AnimalSong.jpg", audio: "/songs/Tu Hai Kahan(PagalWorld.com.cm).mp3" },
-    { title: "Ve Haniya", artist: "Sargun Mehta", image: "./images/Vehaniya.jpg", audio: "/songs/Ve Haniya(PagalWorld.com.cm).mp3" },
+    { title: "Saari Duniya Jalaa Denge(PagalWorld.com.cm)", artist: "B Praak and Jaan", image: "./images/AnimalSong.jpg", audio: "./songs/Saari Duniya Jalaa Denge(PagalWorld.com.cm).mp3" },
+    { title: "Tere Hawaale", artist: "Arijit Singh and Shilpa Rao", image: "./images/TereHawale.jpg", audio: "./songs/Tere Hawaale(PagalWorld.com.cm).mp3" },
+    { title: "Tu Hai Kahan", artist: "Usman Ahad", image: "./images/AnimalSong.jpg", audio: "./songs/Tu Hai Kahan(PagalWorld.com.cm).mp3" },
+    { title: "Ve Haniya", artist: "Sargun Mehta", image: "./images/Vehaniya.jpg", audio: "./songs/Ve Haniya(PagalWorld.com.cm).mp3" },
     { title: "Humdard - Lofi Song (Slowed Reverb) Arijit Singh", artist: "Areijit singh", image: "./images/humdard.jpg", audio: "/songs/Humdard - Lofi Song (Slowed Reverb) Arijit Singh - Ek Villain.mp3" }
 
 ];
