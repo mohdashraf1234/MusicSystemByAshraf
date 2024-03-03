@@ -1,0 +1,149 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Background color */
+    background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); /* Background pattern */
+    background-size: 100px 100px; /* Size of the pattern */
+}
+
+header {
+    background-color: #1DB954;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url('./images/backgroundheader.jpg'); /* Add your image URL here */
+    background-size: cover; /* Adjust the background size */
+    background-position: center; /* Center the background image */
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+#playlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.song {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.song img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.song h3 {
+    margin: 10px 0;
+}
+
+.song p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.audio-controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.audio-controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.play-button {
+    background-color: #1DB954;
+
+.pause-button {
+    background-color: #1DB954;
+
+}
+
+.skip-button {
+    background-color: #1DB954;
+}
+
+.progress-bar {
+    height: 4px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+.time-bar {
+    height: 100%;
+    background-color: #1DB954;
+    width: 0%;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    #playlist {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .song {
+        padding: 15px;
+    }
+
+    .song img {
+        width: 100%;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* To prevent scrollbars from appearing */
+    background-color: #121212; /* Background color */
+    background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); /* Background pattern */
+    background-size: 100px 100px; /* Size of the pattern */
+}
+
+header {
+    background-color: #1DB954;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+#playlist {
+    padding: 20px;
+}
+
+/* Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+body {
+    animation: gradientAnimation 10s ease infinite; /* Apply animation */
+}
