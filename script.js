@@ -1,6 +1,6 @@
 
 const playlist = [
-    { title: "O Mahi song ", artist: "Arijit Singh", image: "./images/Omahi.jpg", audio: "./songs/O Mahi O Mahi(PagalWorld.com.cm).mp3" },
+    { title: "O Mahi song ", artist: "Arijit Singh", image: "./images/Omahi.jpg", audio: ".//songs/O Mahi O Mahi(PagalWorld.com.cm).mp3" },
     { title: "Chaleya", artist: "Ariji singh", image: "./images/Chaleya.jpg", audio: "./songs/Chaleya(PagalWorld.com.cm).mp3" },
     { title: "Maan meri jaan", artist: "King", image: "./images/MaanMeriJaan.jpg", audio: "./songs/Maan Meri Jaan(PagalWorld.com.cm).mp3" },
     { title: "Pahle bhi main", artist: "Raj shekhar", image: "./images/AnimalSong.jpg", audio: "./songs/Pehle Bhi Main(PagalWorld.com.cm).mp3" },
