@@ -9,11 +9,14 @@
 </head>
 <body>
     <header>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="logo">
             <i class="fas fa-music"></i>
             <h1>HarmonyStream</h1>
         </div>
-        <div class="search-bar">
+        <div class="search-bar" id="search-bar">
             <i class="fas fa-search"></i>
             <input type="text" placeholder="Search for songs, artists, or albums">
         </div>
@@ -23,14 +26,16 @@
         </div>
     </header>
 
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
     <div class="main-container">
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
             <div class="sidebar-section">
                 <div class="sidebar-item active">
                     <i class="fas fa-home"></i>
                     <span>Home</span>
                 </div>
-                <div class="sidebar-item">
+                <div class="sidebar-item" id="search-toggle">
                     <i class="fas fa-search"></i>
                     <span>Search</span>
                 </div>
@@ -113,6 +118,6 @@
         </div>
     </div>
 
-   <script src="script.js"></script> 
+   <script src="script.js"></script>
 </body>
 </html>
