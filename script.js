@@ -6,13 +6,22 @@ const playlist = [
         audio: "./songs/O Mahi O Mahi(PagalWorld.com.cm).mp3",
         duration: "3:45"
     },
-    { 
+    // { 
+    //     title: "Chaleya", 
+    //     artist: "Arijit Singh", 
+    //     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+    //     audio: "./songs/Chaleya(PagalWorld.com.cm).mp3",
+    //     duration: "4:12"
+    // }
+
+     { 
         title: "Chaleya", 
         artist: "Arijit Singh", 
-        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        image: "./images/Ash1.jpeg", 
         audio: "./songs/Chaleya(PagalWorld.com.cm).mp3",
         duration: "4:12"
-    },
+    }
+    ,
     { 
         title: "Maan Meri Jaan", 
         artist: "King", 
@@ -356,3 +365,4 @@ if (playlist.length > 0) {
 }
 
 console.log('HarmonyStream Music System initialized successfully!');
+
