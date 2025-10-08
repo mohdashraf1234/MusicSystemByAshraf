@@ -40,7 +40,95 @@ const playlist = [
         image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", 
         audio: "./songs/Tu Hai Kahan(PagalWorld.com.cm).mp3",
         duration: "4:20"
+    },
+
+    { 
+        title: "Saari Duniya Jalaa Denge", 
+        artist: "B Praak and Jaan", 
+        image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "./songs/Saari Duniya Jalaa Denge(PagalWorld.com.cm).mp3",
+        duration: "4:05"
     }
+    ,
+    { 
+        title: "Tu Hai Kahan", 
+        artist: "Usman Ahad", 
+        image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", 
+        audio: "./songs/Tu Hai Kahan(PagalWorld.com.cm).mp3",
+        duration: "4:20"
+    }
+    ,
+    { 
+        title: "Ve Haniya", 
+        artist: "Sargun Mehta", 
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "./songs/Ve Haniya(PagalWorld.com.cm).mp3",
+        duration: "4:12"
+    }
+
+    ,
+    { 
+        title: "Humdard - Lofi Song", 
+        artist: "Areijit singh", 
+        image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "./songs/Humdard - Lofi Song (Slowed Reverb) Arijit Singh - Ek Villain.mp3",
+        duration: "3:55"
+    },
+
+
+
+
+
+
+
+    
+
+     { 
+        title: "O Mahi", 
+        artist: "Arijit Singh", 
+        image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        duration: "3:45"
+    },
+    { 
+        title: "Chaleya", 
+        artist: "Arijit Singh", 
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        duration: "4:12"
+    },
+    { 
+        title: "Maan Meri Jaan", 
+        artist: "King", 
+        image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+        duration: "3:50"
+    },
+    { 
+        title: "Pehle Bhi Main", 
+        artist: "Raj Shekhar", 
+        image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+        duration: "4:05"
+    },
+    { 
+        title: "Phir Na Aisi Raat", 
+        artist: "Arijit Singh", 
+        image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+        duration: "3:55"
+    },
+    { 
+        title: "Tere Hawaale", 
+        artist: "Arijit Singh & Shilpa Rao", 
+        image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", 
+        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+        duration: "4:20"
+    }
+
+
+
+
 ];
 
 let currentAudio = null;
