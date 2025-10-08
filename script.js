@@ -41,32 +41,27 @@ const playlist = [
         audio: "./songs/Tu Hai Kahan(PagalWorld.com.cm).mp3",
         duration: "4:20"
     },
-
     { 
         title: "Saari Duniya Jalaa Denge", 
         artist: "B Praak and Jaan", 
         image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
         audio: "./songs/Saari Duniya Jalaa Denge(PagalWorld.com.cm).mp3",
         duration: "4:05"
-    }
-    ,
+    },
     { 
         title: "Tu Hai Kahan", 
         artist: "Usman Ahad", 
         image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", 
         audio: "./songs/Tu Hai Kahan(PagalWorld.com.cm).mp3",
         duration: "4:20"
-    }
-    ,
+    },
     { 
         title: "Ve Haniya", 
         artist: "Sargun Mehta", 
         image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
         audio: "./songs/Ve Haniya(PagalWorld.com.cm).mp3",
         duration: "4:12"
-    }
-
-    ,
+    },
     { 
         title: "Humdard - Lofi Song", 
         artist: "Areijit singh", 
@@ -77,58 +72,48 @@ const playlist = [
 
 
 
-
-
-
-
-    
-
-     { 
-        title: "O Mahi", 
-        artist: "Arijit Singh", 
-        image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
-        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-        duration: "3:45"
-    },
-    { 
-        title: "Chaleya", 
-        artist: "Arijit Singh", 
-        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
-        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-        duration: "4:12"
-    },
-    { 
-        title: "Maan Meri Jaan", 
-        artist: "King", 
-        image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
-        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-        duration: "3:50"
-    },
-    { 
-        title: "Pehle Bhi Main", 
-        artist: "Raj Shekhar", 
-        image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
-        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
-        duration: "4:05"
-    },
-    { 
-        title: "Phir Na Aisi Raat", 
-        artist: "Arijit Singh", 
-        image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
-        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
-        duration: "3:55"
-    },
-    { 
-        title: "Tere Hawaale", 
-        artist: "Arijit Singh & Shilpa Rao", 
-        image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", 
-        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-        duration: "4:20"
-    }
-
-
-
-
+                 {
+                title: "O Mahi", 
+                artist: "Arijit Singh", 
+                image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+                audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+                duration: "3:45"
+            },
+            { 
+                title: "Chaleya", 
+                artist: "Arijit Singh", 
+                image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+                audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+                duration: "4:12"
+            },
+            { 
+                title: "Maan Meri Jaan", 
+                artist: "King", 
+                image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+                audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+                duration: "3:50"
+            },
+            { 
+                title: "Pehle Bhi Main", 
+                artist: "Raj Shekhar", 
+                image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+                audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+                duration: "4:05"
+            },
+            { 
+                title: "Phir Na Aisi Raat", 
+                artist: "Arijit Singh", 
+                image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
+                audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+                duration: "3:55"
+            },
+            { 
+                title: "Tere Hawaale", 
+                artist: "Arijit Singh & Shilpa Rao", 
+                image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", 
+                audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+                duration: "4:20"
+            }
 ];
 
 let currentAudio = null;
@@ -149,6 +134,11 @@ const durationEl = document.getElementById('duration');
 const currentSongImg = document.getElementById('current-song-img');
 const currentSongTitle = document.getElementById('current-song-title');
 const currentSongArtist = document.getElementById('current-song-artist');
+const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+const sidebar = document.getElementById('sidebar');
+const sidebarOverlay = document.getElementById('sidebar-overlay');
+const searchToggle = document.getElementById('search-toggle');
+const searchBar = document.getElementById('search-bar');
 
 // Create playlist cards
 playlist.forEach((song, index) => {
@@ -158,11 +148,32 @@ playlist.forEach((song, index) => {
         <img src="${song.image}" alt="${song.title}" class="playlist-img">
         <h3>${song.title}</h3>
         <p>${song.artist}</p>
-        <div class="play-btn" data-index="${index}">
+        <button class="play-btn" data-index="${index}">
             <i class="fas fa-play"></i>
-        </div>
+        </button>
     `;
     playlistContainer.appendChild(playlistCard);
+});
+
+// Mobile menu toggle
+mobileMenuToggle.addEventListener('click', function() {
+    sidebar.classList.toggle('active');
+    sidebarOverlay.classList.toggle('active');
+});
+
+// Close sidebar when overlay is clicked
+sidebarOverlay.addEventListener('click', function() {
+    sidebar.classList.remove('active');
+    sidebarOverlay.classList.remove('active');
+});
+
+// Search toggle for mobile
+searchToggle.addEventListener('click', function() {
+    searchBar.classList.toggle('active');
+    if (window.innerWidth <= 768) {
+        sidebar.classList.remove('active');
+        sidebarOverlay.classList.remove('active');
+    }
 });
 
 // Play button functionality
@@ -223,6 +234,13 @@ closeModal.addEventListener('click', function() {
     modal.style.display = 'none';
 });
 
+// Close modal when clicking outside
+window.addEventListener('click', function(e) {
+    if (e.target === modal) {
+        modal.style.display = 'none';
+    }
+});
+
 // Play song function
 function playSong(index) {
     if (currentAudio) {
@@ -248,6 +266,11 @@ function playSong(index) {
     
     // When song ends, play next
     currentAudio.addEventListener('ended', playNextSong);
+    
+    // Set the duration when metadata is loaded
+    currentAudio.addEventListener('loadedmetadata', function() {
+        durationEl.textContent = formatTime(currentAudio.duration);
+    });
 }
 
 // Play/Pause button
@@ -292,18 +315,21 @@ function playNextSong() {
 
 // Update progress bar
 function updateProgress() {
-    if (currentAudio) {
+    if (currentAudio && currentAudio.duration) {
         const { currentTime, duration } = currentAudio;
         const progressPercent = (currentTime / duration) * 100;
         progress.style.width = `${progressPercent}%`;
         
         // Update time displays
         currentTimeEl.textContent = formatTime(currentTime);
+        durationEl.textContent = formatTime(duration);
     }
 }
 
 // Format time (seconds to mm:ss)
 function formatTime(seconds) {
+    if (isNaN(seconds)) return "0:00";
+    
     const min = Math.floor(seconds / 60);
     const sec = Math.floor(seconds % 60);
     return `${min}:${sec < 10 ? '0' : ''}${sec}`;
@@ -311,7 +337,7 @@ function formatTime(seconds) {
 
 // Seek functionality
 progressBar.addEventListener('click', function(e) {
-    if (!currentAudio) return;
+    if (!currentAudio || !currentAudio.duration) return;
     
     const progressBarWidth = this.clientWidth;
     const clickX = e.offsetX;
