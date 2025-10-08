@@ -3,7 +3,7 @@ const playlist = [
         title: "O Mahi", 
         artist: "Arijit Singh", 
         image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60", 
-        audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        audio: "songs/O Mahi O Mahi(PagalWorld.com.cm).mp3",
         duration: "3:45"
     },
     { 
@@ -242,3 +242,4 @@ if (playlist.length > 0) {
 }
 
 console.log('HarmonyStream Music System initialized successfully!');
+
